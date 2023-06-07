@@ -24,8 +24,8 @@ RUN apt update \
             # etc
             doxygen \
     && \
-    pip3 install \
-        # 42
-        norminette \
-        # C/C++ lint
-        cpplint lizard
+        pip3 install \
+            # 42
+            norminette \
+            # C/C++ lint
+            cpplint lizard
